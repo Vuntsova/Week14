@@ -6,7 +6,7 @@ module.exports = function (app) {
     app.get('/api/friends', function (req,res) {
         res.json(friends);
     });
-    app.use(express.static(__dirname + "/public"));
+    app.use(express.static("./public"));
 
     app.post('/api/friends', function (req,res) {
 
