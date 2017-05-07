@@ -27,7 +27,7 @@ module.exports = function (app) {
         // Here we loop through all the friend possibilities in the database
 
 
-        for (var i = 0; i<friends.lenght; i++ ){
+        for (var i = 0; i < friends.length; i++ ){
             console.log(friends[i].name);
             totalDifference  = 0;
 

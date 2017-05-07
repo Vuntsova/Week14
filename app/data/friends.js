@@ -16,7 +16,7 @@ var friends = [
         ]
     },{
         name: "Angelina Jolie",
-        photo: "http://i.huffpost.com/gadgets/slideshows/364692/slide_364692_4135590_free.jpg",
+        photo: "http://img.usmagazine.com/article-leads-vertical-300/1351182578_angelina-jolie-290.jpg",
         scores: [
             "3",
             "4",
@@ -28,7 +28,7 @@ var friends = [
         ]
     },{
         name: "Neil Patrick Harris",
-        photo: "https://houseofgeekery.files.wordpress.com/2015/05/barney.png",
+        photo: "http://images.nymag.com/arts/tv/profiles/nph090921_2_250.jpg",
         scores: [
             "4",
             "5",
@@ -40,7 +40,7 @@ var friends = [
         ]
     },{
         name: "Cobie Smulders",
-        photo: "http://celebmafia.com/wp-content/uploads/2015/05/cobie-smulders-glamour-magazine-mexico-may-2015-photos_2.jpg",
+        photo: "https://s-media-cache-ak0.pinimg.com/originals/87/7a/a8/877aa8220e056924b090b3c6463d896c.jpg",
         scores: [
             "5",
             "5",
@@ -52,7 +52,7 @@ var friends = [
         ]
     },{
         name: "Donald Trump",
-        photo: "http://www.celebitchy.com/wp-content/uploads/2016/01/FFN_NYC_DonaldTrumpBook_110315_51897859.jpg",
+        photo: "https://pbs.twimg.com/profile_images/614526496112144385/O_p28XM2.jpg",
         scores: [
             "1",
             "1",
@@ -65,7 +65,7 @@ var friends = [
     },
     {
         name: "Barack Obama",
-        photo: "http://www.popsci.com/features/interview-with-president-barack-obama/images/layout/lead-mobile.jpg",
+        photo: "http://img.usmagazine.com/article-leads-vertical-300/1250529817_barack_obama_290x402.jpg",
         scores: [
             "5",
             "2",

@@ -143,8 +143,8 @@
                 <h4 class="modal-title"><strong>Best Match</strong></h4>
             </div>
             <div class="modal-body">
-                <h2 id="matchName"></h2>
-                <img id="matchImg" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAUbAAAAJGY0MDU0NThlLWQ0NmYtNDM1Ny05YTY0LThjZWYyN2EzNjEzNQ.jpg" alt="">
+                <h2 id="matchName">Cobie Smulders</h2>
+                <img id="matchImg" src="https://s-media-cache-ak0.pinimg.com/originals/87/7a/a8/877aa8220e056924b090b3c6463d896c.jpg" alt="">
 
             </div>
             <div class="modal-footer">
@@ -195,8 +195,8 @@
            //Ajax post the data to the friends API
            $.post(currentURL + "/api/friends", userData, function (data) {
            //Grab the results from AJAX post so the best match's name and photo are displayed'
-               $("#name").text(data.name);
-               $("#photo").attr("src", data.photo);
+               $("#matchName").text(data.name);
+               $("#matchImg").attr("src", data.photo);
 //               show th modal with the match
                $("#resultsModal").modal("toggle");
 //               alert("working");
