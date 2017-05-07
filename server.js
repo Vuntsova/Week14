@@ -21,6 +21,10 @@ app.use(bodyParser.raw({ type: 'application/vnd.custom-type' }));
 // parse an HTML body into a string
 app.use(bodyParser.text({ type: 'text/html' }));
 
+
+
+
+
 // server route file
 require('./app/routing/api-routes')(app);
 require('./app/routing/html-routes.js')(app);

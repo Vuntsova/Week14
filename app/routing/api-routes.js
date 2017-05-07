@@ -1,10 +1,12 @@
 
 var friends = require('../data/friends.js');
+var express = require('express');
 
 module.exports = function (app) {
     app.get('/api/friends', function (req,res) {
         res.json(friends);
     });
+    app.use(express.static(__dirname + "/public"));
 
     app.post('/api/friends', function (req,res) {
 
